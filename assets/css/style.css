@@ -42,12 +42,27 @@
     border: 2px solid var(--border-color);
   }
   
+  .container {
+    background-color: var(--primary-color);
+  }
+  
  .container h2{
     border: 3px solid var(--border-color);
-    background-color: var(--primary-color);
- 
   }
 
   .container h2 {
       color:cyan
   }
+
+.intro {
+  display: flex;
+  
+}
+
+.intro img {
+  height: 200px;
+}
+
+intro p{
+  color: cyan;
+}
