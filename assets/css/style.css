@@ -7,6 +7,7 @@
   :root {
       --primary-color: gray;
       --border-color: blue;
+      --text-colot: cyan; 
   }
 
   body {
@@ -19,6 +20,7 @@
       flex-wrap: wrap;
       max-width: 1500px;
       border: 2px solid red;
+      
   }
 
   header nav {
@@ -43,16 +45,23 @@
   }
   
   .container {
+    color: var(--text-colot);
     background-color: var(--primary-color);
+    justify-content: space-between;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
  .container h2{
     border: 3px solid var(--border-color);
   }
 
-  .container h2 {
-      color:cyan
-  }
+  /* .container h2 {
+      color: var(--text-colot);
+  } */
 
 .intro {
   display: flex;
@@ -63,6 +72,25 @@
   height: 200px;
 }
 
-intro p{
+.intro p{
   color: cyan;
+}
+
+.about{
+  /* display: flex; */
+}
+
+.about img{
+  height:300px;
+}
+
+.contacts{
+  /* display:flex; */
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  border: 2px solid red;
 }
