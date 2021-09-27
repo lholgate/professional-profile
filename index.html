@@ -35,7 +35,8 @@
     </header>
     
     <section class="intro container">
-        <h2>Intro</h2>
+        <div class="test"><h2 class="side">Intro</h2></div>
+        
         <div class="image">
             <img src="./assets/images/Self.PORTRAIT.jpg" alt="Self Portrait">
         </div>
@@ -46,56 +47,106 @@
     </section>
 
     <section id="about-me" class="about container">
-        <h2>About</h2>
-        <div class="family">
-            <p>Father of 3 sons.</p>
-        </div>
-        <div class="hobbies">
-            <ul>
-                <li>Cooking</li>
-                <li>Gardening</li>
-                <li>Hiking</li>
-                <li>Travel</li>
-            </ul>
-        </div>
-        <div class="gallery">
-            <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-            <div class="pa-carousel-widget" style="width:100%; height:480px; display:none;"
-              data-link="https://photos.app.goo.gl/HtKEUdvdnFGSFkGN8"
-              data-title="Temp"
-              data-description="4 new photos added to shared album">
-              <object data="https://lh3.googleusercontent.com/GnSEta9AFqa4qBz4r1Y7RNifTmKhT_mqLWcZgpFX9zbYAqGC9ZXEMAnAAxey1QTRkpFUbeC2pQX954UA9q5t53n2CzY1DHEnyPfOxgCaVLDxe92w5uSRPqjPibQtFmlpkfDlK_HZmA=w1200-h600"></object>
-              <object data="https://lh3.googleusercontent.com/hkn1e53d8OAdLc3t_j2COqP0xUfQW9ffHxB1tYjIr4MrhT6EnmprSOmKbOLs0uwnW3uFQcCfyY9xx0DnbFtg0aLppxhFa7Q7GuCButHZiq7R-OHt9J28yhAI8u0GHXVjlDLLHmAuRQ=w1200-h600"></object>
-              <object data="https://lh3.googleusercontent.com/yLnQHlVwDwUEqL1O7ZGecgdKvWHq0EcqKGSZGKI7-xAmIaUe2XQBuLjuTX1xWZ5cVZV8G_T1hN2pWHoOp5I6jYyGrKcgt4JnBGetP-AmBt-KZzPjqRZrW5elIqX1rFpLgKEmiNrLHw=w1200-h600"></object>
-              <object data="https://lh3.googleusercontent.com/j9UkIvxvCLUiQj4IZNJOhnZ5FvbuSzOitObVg-UHxkbMReYIBtqfgMHED6GNZesfa9iiC_oH-csJO0WQNl-lS_2iddVV8rq5V47Z36t_UwCqjbLpoQKB6Hl3NFi5HcGmVs-fLOfa9A=w1200-h600"></object>
-            </div>   
-        </div>
+        <h2 class="side">About</h2>
+        <div class="content">
+            <div class="about-item">
+                <p>I am the father of three sons.  I like doing many things, including travel, cooking, gardening, and playing games.</p>
+                <p>I travel for both work and leasure.  Some of my favorite places I have been are England and Singapore.</p>
+                <p>My favorite games are chess and poker.  These games have the least amount of randomness to them.</p>
+            </div>
+            <div class="gallery">
+                <img src="./assets/images/Gallery.jpg" alt="Wine Tasteing">
+            </div>  
+        </div> 
+         
+
+    
 
     </section>
 
     <section id="work-experience" class="work container">
         <div>
-            <h2>Work Experience</h2>
+            <h2 class="side">Work Experience</h2>
         </div>
         <div class="work">
-            <div id="database" class="work">
+            <div id="database" class="work-item">
                 <h3>Database Administration</h3>
+                <ul>
+                    <li>Managed Oracle databases from version 7.1 through 19c.</li>
+                    <li>Managed SQL Server, PostGres, My SQL, and Informix database.</li>
+                    <li>Set up backups and disaster recovery.</li>
+                    <li>Skilled and performance tuning sql for maximum performance.</li>
+                </ul>
             </div>
-            <div id="engineering" class="work">
+            <div id="engineering" class="work-item">
                 <h3>Data Enginieering</h3>
+                <ul>
+                    <li>Designed and implemented data structures for warehouse management application.</li>
+                    <li>Designed data replication strategy for streaming data to AWS cloud.</li>
+                    <li>Setup Golden Gate replication to support reporting environments.</li>
+                    <li>Supporting bi-directional replication between active production databases.</li>
+                    <li>Designed process to merge several data sets into Snowflake environment in AWS.</li>
+                </ul>
             </div>
-            <div id="development" class="work">
+            <div id="development" class="work-item">
                 <h3>Application Development</h3>
+                <ul>
+                    <li>Developed warehouse management applcation using Visual Basic.</li>
+                    <li>Developed problem maanagement application.</li>
+                    <li>Supported several applcations development using PL/SQL.</li>
+                    <li>Learning full stack web development with HTML, CSS, and JavaScript.</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="project-info" class="projects container">
-        <h2>Projects</h2>
+        <h2 class="side">Projects</h2>
+        <div class="project-content">
+            <div class="main-project">
+                <div id="p1" class="project-item">
+                    <img
+                    class="project-image"
+                    src="https://via.placeholder.com/400/92c952"
+                    alt="project image"
+                    />
+                </div>
+            </div>
+            <div class="sub-project">
+                <div id="p2" class="project-item">
+                    <img
+                    class="project-image"
+                    src="https://via.placeholder.com/200/92c952"
+                    alt="project image"
+                    />
+                </div>
+                <div id="p3" class="project-item">
+                    <img
+                    class="project-image"
+                    src="https://via.placeholder.com/200/92c952"
+                    alt="project image"
+                    />
+                </div>
+                <div id="p4" class="project-item">
+                    <img
+                    class="project-image"
+                    src="https://via.placeholder.com/200/92c952"
+                    alt="project image"
+                    />
+                </div>
+                <div id="p5" class="project-item">
+                    <img
+                    class="project-image"
+                    src="https://via.placeholder.com/200/92c952"
+                    alt="project image"
+                    />
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact-info" class="contacts container">
-        <h2>Contact</h2>
+        <h2 class="side">Contact</h2>
         <div class="address">
             <address class="contact">
                 <span>Address:</span><br>
@@ -106,19 +157,23 @@
                 LinkedIn:<a href="#linkedin">LinkedIn</a><br>
             </address>
         </div>
-        <div class="references">
+        <div class="contact reference">
             <address>
                 <span>Reference 1</span><br>
                 <a href="tel:8018706162">801-870-6162</a><br>
                 <a href="mailto:lholgate6162@gmail.com">lholgate6162@gmail.com</a><br>
                 
             </address>
+        </div>
+   
+        <div class="contact reference">
             <address>
                 <span>Reference 2</span><br>
                 <a href="tel:8018706162">801-870-6162</a><br>
                 <a href="mailto:lholgate6162@gmail.com">lholgate6162@gmail.com</a><br>
             </address>
         </div>
+      
     </section>
 
     <footer>
